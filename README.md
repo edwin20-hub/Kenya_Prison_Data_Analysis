@@ -20,7 +20,9 @@ The goal was to understand gender distribution, conviction status, deaths, and e
 4. **Power BI**: Interactive dashboard showing regional comparisons
 
 ## Key Insights
--  Rift Valley region had the highest population"
+- 94.21% of inmates are male and juveniles are 0.91% of the total population
+- 40.37% of inmates are unconvicted highlighting backlog issue
+-  Rift Valley region holds the highest regional population at approximately 59,000 over the four month period.
 -  Escapes peaked in March
 - screenshot to be added
 
