@@ -2,7 +2,7 @@
 
 ## Project Overview
 Analysis of prison population data across 8 Regions(former provinces) in Kenya. 
-The goal was to understand gender distribution, conviction status, deaths, and escapes.
+The goal was to understand gender distribution, conviction status and general population.
 
 **Role**: Data Officer  
 **Tools**: Excel, Power BI, SQL, Python (Pandas, Matplotlib)
@@ -10,7 +10,7 @@ The goal was to understand gender distribution, conviction status, deaths, and e
 ## Dataset
 - **Source**: Internal prison records, Jan - Apr 2026
 - **Granularity**: Aggregated by Month and Region/Province
-- **Variables**: month, region, male, female, convicted, unconvicted, death, escape
+- **Variables**: month, region, male, female, convicted, unconvicted
 - **Note**: Data is aggregated to ensure privacy.
 
 ## Key Analyses
@@ -23,7 +23,7 @@ The goal was to understand gender distribution, conviction status, deaths, and e
 - 94.21% of inmates are male and juveniles are 0.91% of the total population
 - 40.37% of inmates are unconvicted highlighting backlog issue
 -  Rift Valley region holds the highest regional population at approximately 59,000 over the four month period.
--  Escapes peaked in March
+  
 - screenshot to be added
 
 ## How to Use
