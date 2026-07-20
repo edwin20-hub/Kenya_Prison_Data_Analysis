@@ -24,7 +24,7 @@ The goal was to understand gender distribution, conviction status and general po
 - 40.37% of inmates are unconvicted highlighting backlog issue
 -  Rift Valley region holds the highest regional population at approximately 59,000 over the four month period.
   
-- screenshot to be added
+- ![image alt] (https://github.com/edwin20-hub/Kenya_Prison_Data_Analysis/blob/52b3ba947a672cb13d54d108edb59d04216f0900/kps_visuals_26.png)
 
 ## How to Use
 1. Open `analysis.ipynb` to see Python code and charts
