@@ -18,3 +18,15 @@ SELECT
 FROM kps_data_26
 GROUP BY Region
 ORDER BY Total_Regional_Population DESC
+
+
+--- Monthly Population Trend
+USE Prisondatadb;
+SELECT
+ MonthNum,
+ Month,
+ SUM(Males + Females + Juveniles) AS Total_Inmates
+FROM kps_data_26
+GROUP BY MonthNum, Month
+ORDER BY MonthNum;
+
