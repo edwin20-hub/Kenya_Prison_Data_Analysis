@@ -1,1 +1,10 @@
-
+--- backlog rate per region
+USE Prisondatadb;
+SELECT 
+ Region,
+ SUM(Unconvicted_Males) AS Unconvicted,
+ SUM(Convicted_Males + Unconvicted_Males) AS Total_Male_Cases,
+ ROUND(SUM(Unconvicted_Males) * 100.0 / SUM(Convicted_Males + Unconvicted_Males), 2) AS Backlog_Percent
+FROM kps_data_26
+GROUP BY Region
+ORDER BY Backlog_Percent DESC;
