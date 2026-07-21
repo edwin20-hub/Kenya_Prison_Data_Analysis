@@ -8,3 +8,13 @@ SELECT
 FROM kps_data_26
 GROUP BY Region
 ORDER BY Backlog_Percent DESC;
+
+
+-- Regional Population
+USE Prisondatadb;
+SELECT 
+ Region,
+ SUM(Males + Females + Juveniles) AS Total_Regional_Population
+FROM kps_data_26
+GROUP BY Region
+ORDER BY Total_Regional_Population DESC
