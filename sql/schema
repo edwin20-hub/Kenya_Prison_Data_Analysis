@@ -1,1 +1,10 @@
-
+BULK INSERT kps_data
+FROM 'C:\Users\ADMIN\OneDrive\Documents\prison_data_jan_apr_2026.csv'
+WITH (
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    FIRSTROW = 2, 
+    BATCHSIZE = 10000,
+    TABLOCK
+);
+GO    
