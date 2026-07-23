@@ -15,9 +15,9 @@ The goal was to understand gender distribution, conviction status and general po
 
 ## Key Analyses
 1. **Excel**: Data cleaning, aggregation, and pivot tables by region/province
-2. **SQL**: Queried totals per province and % convicted vs unconvicted
-3. **Python**: Trend analysis month-over-month and visualizations
-4. **Power BI**: Interactive dashboard showing regional comparisons
+2. **SQL**: Queried backlog rate per region,regional population and monthly population trend
+3. **Python**: heatmap on male prisoners and population trend by period
+4. **Power BI**: Interactive dashboard showing Key Performance Indicators
 
 ## Key Insights
 - 94.21% of inmates are male and juveniles are 0.91% of the total population
